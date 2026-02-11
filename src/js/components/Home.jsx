@@ -3,11 +3,16 @@ import React from "react";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
+// Importamos los componentes que vamos a usar en nuestra pagina Home
+import NavBar from "./NavBar";
+
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
+		
+		<div>
             
+			<NavBar></NavBar>
 
 			<h1 className="text-center mt-5">Hello Rigo!</h1>
 			<p>
@@ -21,6 +26,7 @@ const Home = () => {
 				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
 				love!
 			</p>
+
 		</div>
 	);
 };
