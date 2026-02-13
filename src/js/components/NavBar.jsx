@@ -19,12 +19,12 @@ const NavBar = () => {
                     </li>
                     <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown link
+                        Ingresar
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Ingresar</a></li>
+                        <li><a class="dropdown-item" href="#">Crear una nueva cuenta</a></li>
+                        <li><a class="dropdown-item" href="#">Recuperar password</a></li>
                     </ul>
                     </li>
                 </ul>
